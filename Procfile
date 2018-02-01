@@ -1,1 +1,1 @@
-web: gunicorn canadatext.wsgi --log-file
+web: gunicorn canadatext.wsgi 
