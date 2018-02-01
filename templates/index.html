@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block styles %}
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/base.css' %}">
+{% endblock %}
+
+{% block title %}
+  Home
+{% endblock %}
+
+{% block content %}
+<h1>welcome to canadtext</h1>
+
+<img src="{{doc.document.url}}" alt="">
+
+{% endblock %}
