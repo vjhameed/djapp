@@ -25,7 +25,7 @@ SECRET_KEY = 'd@sfw6q)ydq+_iwmmxjh#!(e&q*86$pe)^b9ll11hkg2zp*x%k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://hidden-depths-42019.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
